@@ -40,7 +40,7 @@ gem 'guard', '~> 2.16', '>= 2.16.1'
 gem 'binding_of_caller', '~> 0.8.0'
 gem 'public_activity', '~> 1.6', '>= 1.6.4'
 
-gem 'ffi', '~> 1.9', '>= 1.9.21'
+
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
