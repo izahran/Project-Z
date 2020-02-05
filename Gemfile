@@ -13,6 +13,8 @@ gem 'puma', '~> 4.1'
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 4.0'
+# CoffeeScript for .coffee assets and views
+gem 'coffee-rails', '~> 5.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -25,6 +27,7 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+gem 'bootstrap', '~> 4.0'
 gem 'bulma-rails', '~> 0.8.0'
 gem 'simple_form', '~> 5.0', '>= 5.0.1'
 gem 'devise', '~> 4.7', '>= 4.7.1'
@@ -34,6 +37,8 @@ gem 'wysiwyg-rails', '~> 3.1'
 gem 'public_activity', '~> 1.6', '>= 1.6.4'
 gem 'better_errors', '~> 2.5', '>= 2.5.1'
 gem 'guard', '~> 2.16', '>= 2.16.1'
+gem 'binding_of_caller', '~> 0.8.0'
+gem 'public_activity', '~> 1.6', '>= 1.6.4'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
